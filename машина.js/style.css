@@ -1,0 +1,392 @@
+
+main{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    border: medium solid black;
+}
+.track {
+    background-image: url(png/roadd.png);
+    position: absolute;
+    top: 700px;
+    width: 10000px;
+    height: 500px;
+    animation: trackanimation 6s linear infinite;
+}
+.conteiner {
+    width: 600px;
+    height: 250px;
+    position: relative;
+    left: -700px;
+    top:500px;
+}
+.dor{
+    width: 80px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 16px;
+    left: 10px;
+    border: medium solid rgb(0, 0, 0);
+}
+.okno_dor{
+    width: 70px;
+    height: 50px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    border: medium solid rgb(0, 0, 0);
+}
+.ruchka{
+    width: 20px;
+    height: 10px;
+    border-radius: 40px;
+    background-color: black;
+    position: relative;
+    top: 80px;
+    right: 50px;
+}
+.faraa{
+    width: 600px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between
+}
+.faraa1{
+    width: 600px;
+    height: 10px;
+    position: relative;
+    z-index: 5;
+    bottom: -175px;
+    display: flex;
+    justify-content: space-between
+}
+.fara{
+    height: 10px;
+    width: 15px;
+    background-color: red;
+    border-radius: 30px;
+    
+}
+.faraA{
+    height: 10px;
+    width: 7px;
+    background-color: orange;
+    border-radius: 30px;
+    position: relative;
+    right: 200px;
+
+}
+
+
+
+.po{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    border-bottom: 25px;
+    right: -18px;
+    bottom: 15px;
+    border-bottom: 90px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    z-index: 12;
+}
+
+.po1{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -20px;
+    bottom: 110px;
+    border-bottom: 90px solid black;
+    border-left: 50px solid transparent;
+    border-right: 47px solid transparent;
+    z-index: 11;
+}
+.po2{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -22px;
+    bottom: 205px;
+    border-bottom: 90px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    z-index: 10;
+}
+.po3{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -24px;
+    bottom: 300px;
+    border-bottom: 90px solid black;
+    border-left: 50px solid transparent;
+    border-right: 47px solid transparent;
+    z-index: 9;
+}
+.po4{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -26px;
+    bottom: 395px;
+    border-bottom: 90px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    z-index: 8;
+}
+.po5{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -28px;
+    bottom: 490px;
+    border-bottom: 90px solid black;
+    border-left: 50px solid transparent;
+    border-right: 47px solid transparent;
+    z-index: 7;   
+}
+.po6{
+    height: 0; 
+    width: 400px;
+    position: relative;
+    right: -30px;
+    bottom: 585px;
+    border-bottom: 90px solid yellow;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    z-index: 6;
+}
+
+.SKA{
+    width: 150px;
+    height: 50px;  
+}
+
+
+.will {
+    width: 140px;
+    height: 140px;
+    position: relative;
+    right: 110px;
+    bottom: 20px;
+    z-index: 5;
+    border-radius: 100px;
+}
+
+.KOLESO{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 199, 199);
+    position: inherit;
+    margin: 5px;
+    left: 25px;
+    top: 30px;
+    z-index: 3;
+    border-radius: 100px;
+}
+.KOLESO1{
+    width: 140px;
+    height: 140px;
+    background-color: rgb(31, 31, 31);
+    position: inherit;
+    margin: 5px;
+    left: 5px;
+    bottom: 80px;
+    z-index: 2;
+    border-radius: 100px;
+}
+.KOLESO2{
+    width: 140px;
+    height: 140px;
+    position: inherit;
+    left: 30px;
+    margin: 5px;
+    bottom: 230px;
+    z-index: 1;
+    background-color: rgb(0, 0, 0);
+    border-radius: 100px;
+}
+
+.bodycar {
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: yellow;
+    position: relative;
+    bottom: 168px;
+    right: 32px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 5; 
+}
+
+.okno{
+    width: 470px;
+    height: 10px;
+    border-radius: 20px;
+    position: absolute;
+    right:-4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bodycar2 {
+    width: 600px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 0);
+    z-index: 2;
+}
+.bodycar3 {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    z-index: 3;
+}
+.bodycar4 {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    border-radius: 20px;
+    background-color:rgb(245, 245, 0);
+    z-index: 4;
+}
+.bodycar5 {
+    width: 600px;
+    height: 200px;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    z-index: 5;
+
+}
+.tenb{
+    width: 90px;
+    height: 153px;
+    background-color: black;
+    border-radius: 15px;
+    position: absolute;
+    z-index: -1;
+    left: 1px;
+    bottom: 4px;
+}
+.window {
+    position:relative;
+    top: 20px;
+    height: 90px;
+    width: 45px;
+    background-color: whitesmoke;
+    padding: 0px;
+    bottom: 5px;
+    border-radius: 15px;
+    z-index: 1;
+    
+}
+.window1{
+    position:relative;
+    top: 23px;
+    left: -15px;
+    height: 86px;
+    width: 45px;
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+    bottom: 5px;
+    border-radius: 15px;
+    
+}
+.porog{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.porog5{
+    width: 500px;
+    height: 10px;
+    position: absolute;
+    left: 78px;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+
+.blackline{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+
+.line{
+width: 365px;
+height: 10px;
+background-color: black;
+margin: 9px;
+}
+
+/* .will {
+    width: 150px;
+    animation-name: rotation;
+    animation-duration: 5ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+ */
+
+@keyframes trackanimation {
+    0%{
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(-2000px);
+    }
+}
+
+
+.conteiner{
+    animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes move {
+    0%{
+        transform: translate(0px);
+    }
+    100% {
+        transform: translate(2700px);
+    }
+}

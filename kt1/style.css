@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Montserrat&display=swap');
+body{
+    background-color: black;
+}
+header{
+    color:rgb(255, 255, 255);
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.conteiner{
+    width: 1900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/phon.png);
+    margin-bottom: 5px;
+}
+@media screen and (max-width:1280px) and (min-width:1024px){
+    .conteiner{
+        width: 1100px;
+    }
+    .conteiner1{
+        width: 1100px;
+    }
+    .conteiner2{
+        width: 1100px;
+    }
+    .conteiner3{
+        width: 1100px;
+    }
+    .conteiner4{
+        width: 1100px;
+    }
+    .head{
+        width: 1100px;
+    }
+
+}
+@media screen and (max-width:1024px) and (min-width:768px){
+    .conteiner{
+        width:800px;
+    }
+    .conteiner1{
+        width:800px;
+    }
+    .conteiner2{
+        width:800px;
+    }
+    .conteiner3{
+        width:800px;
+    }
+    .conteiner4{
+        width:800px;
+    }
+
+}
+@media screen and (max-width:768px){
+    .conteiner{
+        width:30%;
+    }
+    .conteiner1{
+        width:30%;
+    }
+    .conteiner2{
+        width:30%;
+    }
+    .conteiner3{
+        width:30%;
+    }
+    .conteiner4{
+        width:30%;
+    }
+
+}
+
+.conteiner1{
+    width: 1900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/1677902332_bogatyr-club-p-glinistaya-pochva-foni-instagram-47.jpg);
+    margin-bottom: 5px;
+}
+
+.conteiner2{
+    width: 1900px;
+    height: 900px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-image: url(img/Без\ имени-2.png);
+    z-index: 1;
+    margin-bottom: 5px;
+}
+.conteiner3{
+    width: 1900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(112, 28, 28);
+    margin-bottom: 5px;
+}
+
+.conteiner4{
+    width: 1900px;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 20, 20);
+    margin-bottom: 5px;
+}
+
+.block{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: black;
+}
+
+.block2{
+    height: 250px;
+    width: 600px;
+    position: relative;
+    padding: 20px;
+    top: 55px;
+    left: 500px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgb(170, 25, 25);
+}
+.text2{
+    font-size: 23px;
+    font-family:sans-serif;
+}
+.block3{
+    height: 200px;
+    width: 600px;
+    position: relative;
+    top: 420px;
+    right: 20px;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+    background-color: rgb(161, 41, 41);
+}
+.block4{
+    height: 70px;
+    width: 250px;
+    position: relative;
+    top: 680px;
+    right: 410px;
+    border-radius: 80px;
+    margin: 20px;
+    background-color: rgb(255, 238, 0);
+}
+.block5{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top: 50px;
+    right: 100px;
+    border-radius:20px;
+    padding-left: 200px;
+    border: medium solid black;
+    margin: 20px;
+    background-image: url(img/Без\ имени-1.png);
+    transition: 0.5s;
+}
+.block5:hover{
+    transform: scale(1.1);
+}
+.block3:hover{
+    transform: scale(1.05);
+}
+.block2:hover{
+    transform: scale(1.05);
+}
+.block4:hover{
+    transform: scale(1.1);
+}
+.head{
+    width: 1900px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 50px;
+    width: 200px;
+    position: relative;
+    top: 45px;
+    right: 200px;
+    border-radius: 80px;
+    margin-left: 200px;
+    background-color: rgb(204, 73, 73);
+}
+
+.boxx{
+    width: 220px;
+    height: 60px;
+    position: relative;
+    right:40px;
+    top: 30px;
+    background-color: rgb(235, 164, 164);
+    border-radius: 80px;
+    margin: 10px;
+}
+.box:hover{
+    background-color: rgb(190, 96, 96);
+    box-shadow: 0 5px 10px black;
+    color: aliceblue;
+}
+.boxx:hover{
+    background-color: rgb(190, 131, 131);
+    box-shadow: 0 5px 10px black;
+    color: aliceblue;
+}
+.textt{
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+}
+.texttt{
+    color: black;
+    position: relative;
+    left: 70px;
+    top: 15px;
+}
+.boxxxx:hover > div{
+    display: initial;
+}
+.stolb{
+    width: 500px;
+    height: 400px;
+    color: rgb(255, 0, 106);
+    background-color: rgba(red, green, blue, alpha);
+    position: absolute;
+    border-radius: 15px;
+    right: -10px;
+    top: 10px;
+    box-shadow: 0 10px 20px black;
+    display: none;
+  
+}
+.lol{
+    margin: 30px;
+    font-family:sans-serif;
+    position: relative;
+    left: 30px;
+    list-style: none;
+    font-size:50px;
+}
+.lol:hover{
+    width: 250px;
+    position: relative;
+    left: 20px;
+    box-shadow: 0 5px 10px black;
+    border-radius:25px ;
+}
+.logo{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    right:150px;
+    background-image: url(img/logo.png);
+    border-radius: 25px;
+    margin: 10px;
+    transition: 0.3s;
+}
+.logo:hover{
+    transform: scale(1.05);
+}
+.boxxxx{
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 500px;
+    background-image: url(img/333.png);
+}
+.image{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top: 100px;
+    background-image: url(img/polёt.png);
+}
+.image:hover{
+transform:scale(1.3);
+}
+.ttt{
+   width: 1000px;
+   height: 100px;
+   position: relative;
+   left: 650px;
+   top: 20px;
+   border-radius: 60px;
+   background-color: whitesmoke;
+
+}
+.textttt{
+    position: relative;
+    left: 25px;
+    top: 20px;
+    font-size: 50px;
+}
+.yyy{
+    width: 1900px;
+    height: 1500px;
+    position:relative;
+    top: 300px;
+    right: 300px;
+    font-size: 25px;
+    color: antiquewhite;
+
+}
+
+.block6{
+   width: 600px;
+   height: 100px;
+   position: relative;
+   left: 800px;
+   top: 20px;
+   border-radius: 60px;
+   background-color: whitesmoke;
+}
+.ggg{
+    width: 600px;
+    height: 100px;
+    position: relative;
+    left: 50px;
+    font-size: 70px;
+}
+.block8{
+width: 1400px;
+height: 550px;
+position: relative;
+top: 150px;
+right: 300px;
+border-radius: 50px;
+background-color: rgb(0, 0, 0);
+font-size: 30px;
+color: aliceblue ;
+padding: 100px;
+}
